@@ -54,7 +54,7 @@ export default function Lista (props){
                 ))}
             </ul>
 
-            <button onClick={clearList} className="clear-button">Clear List</button>
+            <button onClick={clearList} className="clear-button">Limpar a lista</button>
             
         </div>
         

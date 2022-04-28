@@ -8,7 +8,7 @@ export default function Main(){
         <main>
             <Lista titulo="Compras"></Lista>
             <footer>
-                <p>Siga-me no instagram <a href="https://www.instagram.com/delmalandrin/" target="_blank">Andrew Malandrin</a></p>
+                <p>Siga-me no instagram <a href="https://www.instagram.com/delmalandrin/" target="_blank">delmalandrin</a></p>
             </footer>
         </main>
     )
