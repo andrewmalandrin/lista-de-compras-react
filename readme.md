@@ -6,9 +6,9 @@ App criado pare exercitar meus conhecimentos em react js e estudar a utilizaçã
 
 Habilidades desenvolvidas na criação deste app
 
--React js
--Criação de componentes react
--Export de funções
--States
--Configuração do Webpack
--Configuração do Babel
+- React js
+- Criação de componentes react
+- Export de funções
+- States
+- Configuração do Webpack
+- Configuração do Babel
