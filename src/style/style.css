@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    background: #1f1f1f;
+    min-height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    background: #f1f1f1;
+    border-radius: 8px;
+    margin-left: 64px;
+    margin-right: 64px;
+    min-height: 800px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+h1{
+    margin:auto;
+    padding: 32px;
+    text-align: left;
+    color: white;
+    background: #0a081a;
+    border-radius: 8px;
+}
+
+main{
+    margin:32px;
+}
+
+.lista-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-div form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-div ul{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    flex-direction: column;
+    margin: 16px;
+    list-style: none;
+}
+
+.lista-div h2{
+    margin-top: 16px;
+    margin-bottom: 16px;;
+}
+
+.lista-div li{
+    font-size: 16px;
+    margin: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-div label{
+    padding:8px;
+}
+
+.lista-div input{
+    margin-right: 16px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.lista-div button{
+    padding:8px;
+    border-radius: 8px;
+}
+
+.delete-button{
+    margin-left: 16px;
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+.clear-button{
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(143, 56, 201);
+}
+
+
+@media screen and (max-device-width: 640px){
+    .lista-div form{
+        flex-direction: column;
+    }
+
+    .lista-div form button{
+        margin-top: 16px;
+    }
+
+    .lista-div input{
+        align-self: center;
+        margin: auto;
+    }
+}
+
