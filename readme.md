@@ -1,6 +1,6 @@
-#LISTA DE COMPRAS
+# LISTA DE COMPRAS
 
-##REACT JS
+## REACT JS
 
 App criado pare exercitar meus conhecimentos em react js e estudar a utilização de states com hooks.
 
