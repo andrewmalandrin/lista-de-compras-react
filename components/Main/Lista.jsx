@@ -41,7 +41,11 @@ export default function Lista (props){
 
     return(
         <div className="lista-div">
+
+            <p>Crie sua lista de compras e salve em PDF</p>
+
             <form onSubmit={addItem}>
+                
                 <label>Alimento</label><input type="text" name="alimento" onChange={getAlimento} value={alimento} required></input>
                 <label>Quantidade</label><input type="text" name="quantidade" onChange={getQuantidade} value={quantidade} required></input>
                 <button type="submit" className="ok-button">OK</button>

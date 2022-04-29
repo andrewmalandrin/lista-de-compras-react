@@ -23,7 +23,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
     padding-top: 64px;
 }
 
@@ -48,6 +48,7 @@ main{
 }
 
 .lista-div form{
+    padding-top: 16px;
     display: flex;
     justify-content: space-between;
 }
