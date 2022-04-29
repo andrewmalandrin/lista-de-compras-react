@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import createPdf from "../../src/js/createPdf"
 
 export default function Lista (props){
     
@@ -55,6 +56,7 @@ export default function Lista (props){
             </ul>
 
             <button onClick={clearList} className="clear-button">Limpar a lista</button>
+            <button onClick={() => {createPdf(lista)}} className="clear-button">Gerar Pdf</button>
             
         </div>
         
