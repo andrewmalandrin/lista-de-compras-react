@@ -44,19 +44,19 @@ export default function Lista (props){
             <form onSubmit={addItem}>
                 <label>Alimento</label><input type="text" name="alimento" onChange={getAlimento} value={alimento} required></input>
                 <label>Quantidade</label><input type="text" name="quantidade" onChange={getQuantidade} value={quantidade} required></input>
-                <button type="submit">OK</button>
+                <button type="submit" className="ok-button">OK</button>
 
             </form>
             
             <ul>
                 <h2>{props.titulo}</h2>
                 {lista.map(item => (
-                    <li key={"alimento-"+ item.id}> {item.alimento}: {item.quantidade} <button onClick={() => deleteItem(item.id)} className="delete-button">APAGAR</button></li>
+                    <li key={"alimento-"+ item.id}> {item.alimento}: {item.quantidade} <button onClick={() => deleteItem(item.id)} className="delete-button">X</button></li>
                 ))}
             </ul>
 
             <button onClick={clearList} className="clear-button">Limpar a lista</button>
-            <button onClick={() => {createPdf(lista)}} className="clear-button">Gerar Pdf</button>
+            <button onClick={() => {createPdf(lista)}} className="pdf-button">Gerar Pdf</button>
             
         </div>
         

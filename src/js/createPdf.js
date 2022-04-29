@@ -32,13 +32,14 @@ function createPdf(list){
 
 
         pageSize: 'A4',
-        margin: [40,40,40,40],
+        margin: [40,64,40,40],
        
         header: [
            {
                 text:"Lista de Compras",
                 fontsize: 16,
-                alignment: 'center'
+                alignment: 'center',
+                margin: [0,16,0,40]
             },
                 
         ],
@@ -49,7 +50,7 @@ function createPdf(list){
                ul:[...newList
                ],
                alignment:'center',
-               margin: [100,2,100,2]
+               margin: [100,16,100,2]
            },
            
        ],
@@ -61,6 +62,7 @@ function createPdf(list){
        
     }
     
+    pdfMake.createPdf(docDefinition).open()
     pdfMake.createPdf(docDefinition).download()
 
 }

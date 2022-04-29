@@ -18,6 +18,7 @@ body{
     min-height: 800px;
 }
 
+
 header{
     display: flex;
     align-items: center;
@@ -86,19 +87,49 @@ main{
 }
 
 .lista-div button{
+    cursor:pointer;
+}
+
+.ok-button{
     padding:8px;
-    border-radius: 8px;
+    cursor:pointer;
+    border-radius: 4px;
 }
 
 .delete-button{
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:6px;
+    padding-right:6px;
+    border-radius:50%;
+    background: #740101;
+    color: white;
     margin-left: 16px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: bold;
     align-self: flex-end;
+    cursor:pointer;
+    
 }
 
 .clear-button{
+    padding:8px;
     margin-top: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+
+.pdf-button{
+    padding:8px;
+    background: #740101;
+    color: white;
+    margin-bottom: 32px;
+    border: none;
+    box-shadow: 2px 2px 10px black ;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 4px;
 }
 
 footer{
